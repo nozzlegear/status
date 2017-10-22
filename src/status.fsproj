@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Status</AssemblyName>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>A lightweight .NET package for working with HTTP status codes and status code descriptions.</Description>
+    <Authors>Nozzlegear</Authors>
+    <Copyright>Nozzlegear Software</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/nozzlegear/status/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/nozzlegear/status</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nozzlegear/status</RepositoryUrl>
+    <PackageTags>http,status code, statuses</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+</Project>
